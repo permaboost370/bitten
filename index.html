@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0e0d08" />
+
+  <title>$BITTEN — Backrooms Kitten | kitten in the backroom brutally biting the anon</title>
+  <meta name="description" content="$BITTEN — the Backrooms Kitten. Born from the 2019 /x/ sighting: a kitten in the backroom brutally biting the anon. Now it noclips through the on-chain liminal space on Solana." />
+  <meta name="keywords" content="BITTEN, Backrooms Kitten, meme coin, Solana, pump.fun, backrooms, liminal, crypto" />
+  <link rel="canonical" href="https://bitten.vercel.app/" />
+
+  <!-- Favicons (rounded corners) -->
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+  <link rel="mask-icon" href="/assets/favicon-512.png" color="#c41e1e" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="$BITTEN — Backrooms Kitten" />
+  <meta property="og:title" content="$BITTEN — Backrooms Kitten" />
+  <meta property="og:description" content="kitten in the backroom brutally biting the anon. Noclip into $BITTEN on Solana." />
+  <meta property="og:url" content="https://bitten.vercel.app/" />
+  <meta property="og:image" content="https://bitten.vercel.app/assets/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="$BITTEN Backrooms Kitten standing in the yellow liminal backrooms" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@BackroomKitten" />
+  <meta name="twitter:creator" content="@BackroomKitten" />
+  <meta name="twitter:title" content="$BITTEN — Backrooms Kitten" />
+  <meta name="twitter:description" content="kitten in the backroom brutally biting the anon. Noclip into $BITTEN on Solana." />
+  <meta name="twitter:image" content="https://bitten.vercel.app/assets/og-image.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=VT323&family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "$BITTEN — Backrooms Kitten",
+    "url": "https://bitten.vercel.app/",
+    "description": "kitten in the backroom brutally biting the anon. $BITTEN on Solana."
+  }
+  </script>
+</head>
+<body>
+  <!-- grain + fluorescent overlays -->
+  <div class="grain" aria-hidden="true"></div>
+  <div class="flicker" aria-hidden="true"></div>
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <!-- boot screen -->
+  <div id="boot" class="boot">
+    <div class="boot-inner">
+      <p class="boot-line">> ESTABLISHING CONNECTION<span class="caret">_</span></p>
+      <p class="boot-line">> LEVEL 0 // THE LOBBY</p>
+      <p class="boot-line boot-warn">> WARNING: something is in here with you</p>
+      <p class="boot-line">> ENTER AT YOUR OWN RISK</p>
+      <button id="enter-btn" class="enter-btn">[ NOCLIP IN ]</button>
+    </div>
+  </div>
+
+  <!-- nav -->
+  <header class="nav">
+    <a href="#top" class="nav-brand">
+      <img src="/assets/favicon-96.png" alt="$BITTEN logo" width="34" height="34" />
+      <span>$BITTEN</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#sighting">The Sighting</a>
+      <a href="#evidence">Evidence</a>
+      <a href="#tokenomics">Tokenomics</a>
+      <a href="#buy">How to Buy</a>
+    </nav>
+    <a class="nav-cta" href="https://pump.fun/coin/42hwVBvYP8FnDKBNDhoinyTB3hSLK6UzwCTDZr5ppump" target="_blank" rel="noopener">Buy $BITTEN</a>
+  </header>
+
+  <!-- HERO -->
+  <section id="top" class="hero">
+    <div class="room" aria-hidden="true">
+      <div class="room-floor"></div>
+      <div class="room-wall"></div>
+      <div class="lights">
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+      <div class="fog fog-1"></div>
+      <div class="fog fog-2"></div>
+    </div>
+
+    <div class="hero-inner">
+      <div class="kitten-wrap">
+        <img class="kitten" src="/assets/logo-512.png" alt="$BITTEN Backrooms Kitten in a red hoodie standing in the backrooms" width="280" height="280" />
+        <div class="kitten-glow" aria-hidden="true"></div>
+      </div>
+
+      <h1 class="title glitch" data-text="$BITTEN">$BITTEN</h1>
+      <p class="subtitle">BACKROOMS&nbsp;KITTEN</p>
+      <p class="tagline">"kitten in the backroom brutally biting the anon"</p>
+
+      <div class="ca-pill" id="ca-pill" title="Click to copy contract address">
+        <span class="ca-label">CA</span>
+        <span class="ca-addr" id="ca-addr">42hwVBvYP8FnDKBNDhoinyTB3hSLK6UzwCTDZr5ppump</span>
+        <button class="ca-copy" id="ca-copy" aria-label="Copy contract address">COPY</button>
+      </div>
+
+      <div class="cta-row">
+        <a class="btn btn-primary" href="https://pump.fun/coin/42hwVBvYP8FnDKBNDhoinyTB3hSLK6UzwCTDZr5ppump" target="_blank" rel="noopener">Buy on pump.fun</a>
+        <a class="btn" href="https://dexscreener.com/solana/42hwVBvYP8FnDKBNDhoinyTB3hSLK6UzwCTDZr5ppump" target="_blank" rel="noopener">Dexscreener</a>
+        <a class="btn btn-x" href="https://x.com/BackroomKitten" target="_blank" rel="noopener">Follow on X</a>
+      </div>
+    </div>
+
+    <a href="#sighting" class="scroll-hint" aria-label="Scroll down">▼</a>
+  </section>
+
+  <!-- marquee -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>$BITTEN&nbsp;&nbsp;•&nbsp;&nbsp;KITTEN IN THE BACKROOM&nbsp;&nbsp;•&nbsp;&nbsp;BRUTALLY BITING THE ANON&nbsp;&nbsp;•&nbsp;&nbsp;NO EXIT&nbsp;&nbsp;•&nbsp;&nbsp;LEVEL 0&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+      <span>$BITTEN&nbsp;&nbsp;•&nbsp;&nbsp;KITTEN IN THE BACKROOM&nbsp;&nbsp;•&nbsp;&nbsp;BRUTALLY BITING THE ANON&nbsp;&nbsp;•&nbsp;&nbsp;NO EXIT&nbsp;&nbsp;•&nbsp;&nbsp;LEVEL 0&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+    </div>
+  </div>
+
+  <!-- SIGHTING / LORE -->
+  <section id="sighting" class="section reveal">
+    <div class="section-head">
+      <span class="kicker">// FILE 22661164</span>
+      <h2>The Sighting</h2>
+    </div>
+    <div class="lore-grid">
+      <div class="lore-text">
+        <p>On <strong>Sun 12 May 2019, 09:37:00</strong>, an anonymous poster opened a thread titled <em>"unsettling videos."</em> Among the clips was footage that should not exist — a small kitten, hooded, standing alone in the endless yellow rooms.</p>
+        <p>The caption was four words long:</p>
+        <p class="lore-quote">"kitten in the backroom brutally biting the anon"</p>
+        <p>The anon never posted again. The thread filled with replies, then went quiet. The kitten stayed behind the walls of reality — pacing the moist carpet, humming fluorescent, waiting for the next noclip.</p>
+        <p>In 2025 it bit through the membrane between the backrooms and the blockchain. It has a ticker now. It has teeth. <strong class="hl">$BITTEN</strong> is loose on Solana.</p>
+      </div>
+      <figure class="post-card">
+        <div class="post-head"><span class="post-sub">unsettling videos</span> <span class="post-anon">Anonymous</span> <span class="post-date">05/12/19(Sun)09:37:00 No.22661164</span></div>
+        <div class="post-body">
+          <img src="/assets/logobitten.jpg" alt="Backrooms kitten sighting" class="post-img" loading="lazy" />
+          <p class="post-text">&gt;kitten in the backroom brutally biting the anon</p>
+          <p class="post-text dim">&gt;&gt;22661185 &gt;&gt;22661325 &gt;&gt;22661451 &gt;&gt;22661737</p>
+        </div>
+      </figure>
+    </div>
+  </section>
+
+  <!-- EVIDENCE / VIDEO -->
+  <section id="evidence" class="section reveal">
+    <div class="section-head">
+      <span class="kicker">// RECOVERED FOOTAGE</span>
+      <h2>Evidence</h2>
+    </div>
+    <div class="video-frame">
+      <div class="video-osd"><span class="rec">● REC</span><span id="osd-time">00:00:00</span></div>
+      <video id="evidence-video" poster="/assets/video-poster.jpg" playsinline loop preload="metadata" controls>
+        <source src="/assets/bitten-evidence.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="video-grain" aria-hidden="true"></div>
+    </div>
+    <p class="video-cap">Source: /x/ — 640×480 .mp4 — recovered &amp; restored. Audio is original. Do not watch alone.</p>
+  </section>
+
+  <!-- TOKENOMICS -->
+  <section id="tokenomics" class="section reveal">
+    <div class="section-head">
+      <span class="kicker">// THE NUMBERS BEHIND THE WALL</span>
+      <h2>Tokenomics</h2>
+    </div>
+    <div class="stat-grid">
+      <div class="stat"><span class="stat-k">Ticker</span><span class="stat-v">$BITTEN</span></div>
+      <div class="stat"><span class="stat-k">Supply</span><span class="stat-v">1,000,000,000</span></div>
+      <div class="stat"><span class="stat-k">Tax</span><span class="stat-v">0 / 0</span></div>
+      <div class="stat"><span class="stat-k">Chain</span><span class="stat-v">Solana</span></div>
+      <div class="stat"><span class="stat-k">Liquidity</span><span class="stat-v">Burned 🔥</span></div>
+      <div class="stat"><span class="stat-k">Launch</span><span class="stat-v">pump.fun</span></div>
+    </div>
+    <div class="chart-wrap">
+      <iframe title="$BITTEN live chart" src="https://dexscreener.com/solana/42hwVBvYP8FnDKBNDhoinyTB3hSLK6UzwCTDZr5ppump?embed=1&theme=dark&trades=0&info=0" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <!-- HOW TO BUY -->
+  <section id="buy" class="section reveal">
+    <div class="section-head">
+      <span class="kicker">// SURVIVAL GUIDE</span>
+      <h2>How to Get Bitten</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><span class="step-n">01</span><h3>Get a wallet</h3><p>Install <a href="https://phantom.app" target="_blank" rel="noopener">Phantom</a> or any Solana wallet. This is your flashlight in the dark.</p></div>
+      <div class="step"><span class="step-n">02</span><h3>Fund with SOL</h3><p>Buy SOL on an exchange and send it to your wallet. Keep a little for gas — the rooms charge a toll.</p></div>
+      <div class="step"><span class="step-n">03</span><h3>Swap for $BITTEN</h3><p>Open <a href="https://pump.fun/coin/42hwVBvYP8FnDKBNDhoinyTB3hSLK6UzwCTDZr5ppump" target="_blank" rel="noopener">pump.fun</a> or <a href="https://dexscreener.com/solana/42hwVBvYP8FnDKBNDhoinyTB3hSLK6UzwCTDZr5ppump" target="_blank" rel="noopener">Dexscreener</a>, paste the CA, and swap.</p></div>
+      <div class="step"><span class="step-n">04</span><h3>Get bitten</h3><p>Hold. Hum the fluorescent hum. Tell no one how you got in. There is no exit — only $BITTEN.</p></div>
+    </div>
+    <div class="buy-cta">
+      <a class="btn btn-primary btn-lg" href="https://pump.fun/coin/42hwVBvYP8FnDKBNDhoinyTB3hSLK6UzwCTDZr5ppump" target="_blank" rel="noopener">Enter the Backrooms → Buy $BITTEN</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <img src="/assets/favicon-128.png" alt="$BITTEN" width="56" height="56" class="footer-logo" />
+    <p class="footer-title">$BITTEN — BACKROOMS KITTEN</p>
+    <div class="footer-links">
+      <a href="https://x.com/BackroomKitten" target="_blank" rel="noopener">X / Twitter</a>
+      <a href="https://pump.fun/coin/42hwVBvYP8FnDKBNDhoinyTB3hSLK6UzwCTDZr5ppump" target="_blank" rel="noopener">pump.fun</a>
+      <a href="https://dexscreener.com/solana/42hwVBvYP8FnDKBNDhoinyTB3hSLK6UzwCTDZr5ppump" target="_blank" rel="noopener">Dexscreener</a>
+    </div>
+    <p class="footer-ca" id="footer-ca" title="Click to copy">42hwVBvYP8FnDKBNDhoinyTB3hSLK6UzwCTDZr5ppump</p>
+    <p class="disclaimer">$BITTEN is a meme coin with no intrinsic value or expectation of financial return. It exists for entertainment and the lore. Nothing here is financial advice. The backrooms are not real. The kitten is. DYOR.</p>
+  </footer>
+
+  <div id="toast" class="toast">Copied to clipboard</div>
+
+  <script src="/script.js"></script>
+</body>
+</html>

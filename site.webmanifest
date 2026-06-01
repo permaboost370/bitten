@@ -1,0 +1,14 @@
+{
+  "name": "$BITTEN — Backrooms Kitten",
+  "short_name": "$BITTEN",
+  "description": "kitten in the backroom brutally biting the anon",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0e0d08",
+  "theme_color": "#0e0d08",
+  "icons": [
+    { "src": "/assets/favicon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/assets/favicon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/assets/favicon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
